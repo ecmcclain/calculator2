@@ -13,6 +13,7 @@ tokens = user_input.split(' ')
 if tokens[0] == "q":
     quit
 else:
-    
+    if tokens[0] == "+":
+        print(add(tokens[1],tokens[2]))
 
 # Replace this with your code
