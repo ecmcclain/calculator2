@@ -15,5 +15,7 @@ if tokens[0] == "q":
 else:
     if tokens[0] == "+":
         print(add(tokens[1],tokens[2]))
+    elif tokens[0] == "-":
+        print(subtract(tokens[1],tokens[2]))
 
 # Replace this with your code
