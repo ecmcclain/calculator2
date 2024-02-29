@@ -25,5 +25,7 @@ else:
         print(square(tokens[1]))
     elif tokens[0] == "cube":
         print(cube(tokens[1]))
+    elif tokens[0] == "pow":
+        print(power(tokens[1],tokens[2]))
 
 # Replace this with your code
