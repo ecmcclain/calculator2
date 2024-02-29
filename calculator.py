@@ -23,5 +23,7 @@ else:
         print(divide(tokens[1],tokens[2]))
     elif tokens[0] == "square":
         print(square(tokens[1]))
+    elif tokens[0] == "cube":
+        print(cube(tokens[1]))
 
 # Replace this with your code
