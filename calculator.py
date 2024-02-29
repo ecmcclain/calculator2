@@ -27,5 +27,7 @@ else:
         print(cube(tokens[1]))
     elif tokens[0] == "pow":
         print(power(tokens[1],tokens[2]))
+    elif tokens[0] == "mod":
+        print(mod(tokens[1],tokens[2]))
 
 # Replace this with your code
