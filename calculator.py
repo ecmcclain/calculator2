@@ -21,5 +21,7 @@ else:
         print(multiply(tokens[1],tokens[2]))
     elif tokens[0] == "/":
         print(divide(tokens[1],tokens[2]))
+    elif tokens[0] == "square":
+        print(square(tokens[1]))
 
 # Replace this with your code
